@@ -1,0 +1,79 @@
+body{
+  background: white;
+  font-family: 'Source code Pro', monospace;
+  font-style: normal;
+  font-size: 19px;
+  margin: 0px;
+}
+.logo{
+  width: 60px;
+}
+.cabecalho{
+  float: left;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+}
+.quebra{
+  clear: left;
+}
+.menu {
+  position: absolute;
+  right: 0;
+  padding-right: 200px;
+  margin-top: 25px;
+}
+.link-menu{
+  border-bottom: 2px solid lightsalmon;
+  color: black;
+  border-radius: 0px;
+  background-color: white;
+  text-decoration: none;
+  font-weight: normal;
+  padding: 5px;
+}
+.link-menu:hover{
+  color: black;
+  background-color: #E8E8E8;
+  text-decoration: none;
+  font-weight: normal;
+}
+header{
+  display: flex;
+  background-color: #ffffff;
+  border: 1px #E8E8E8 solid;
+  padding-bottom: 10px;
+}
+h1{
+  font-size: 20px;
+}
+h2{
+  margin-left: 100px;
+}
+h3{
+  margin-left: 100px;
+}
+th {
+  text-align: left;
+}
+a{
+  color: black;
+  margin-left: 10px;
+  border-radius: 15px;
+  background-color: white;
+  text-decoration: none;
+  font-weight: normal;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  padding: 70px;
+  width: 40%;
+  top: 40%;
+  left: 25%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.gif {
+  width: 20%;
+}
