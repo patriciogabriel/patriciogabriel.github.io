@@ -18,6 +18,9 @@ body{
 .logo{
   width: 60px;
 }
+.link-logo {
+  text-decoration: none;
+}
 .info-dock {
   position: fixed;
   bottom: 0;
@@ -53,7 +56,6 @@ body{
 .link-menu{
   border-bottom: 2px solid lightskyblue;
   color: black;
-  border-radius: 0px;
   background-color: white;
   text-decoration: none;
   font-weight: normal;
@@ -72,6 +74,7 @@ header{
   padding-bottom: 10px;
 }
 h1{
+  color: black;
   font-size: 17px;
 }
 h2{
@@ -81,4 +84,50 @@ h2{
 h3{
   font-weight: normal;
   margin-left: 100px;
+}
+.preview {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 50px;
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+}
+.preview-link {
+  color: black;
+  text-decoration: none;
+  width: 26%;
+  border-bottom: 2px solid lightskyblue;
+  font-size: 30px;
+}
+.preview-link:hover {
+  color: black;
+  background-color: #E8E8E8;
+  text-decoration: none;
+  width: 26%;
+  border-bottom: 2px solid lightskyblue;
+  font-size: 30px;
+}
+.preview-teaser {
+  border-bottom: 2px solid lightskyblue;
+  font-size: 20px;
+}
+.preview-img {
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid black;
+}
+.preview-meta {
+  font-size: 18px;
+}
+.author-name {
+  font-weight: bold;
+}
+.preview-tag {
+  text-decoration: none;
+  color: red;
+  margin-left: 25%
+}
+.tela-login {
+  width: 100%;
 }
