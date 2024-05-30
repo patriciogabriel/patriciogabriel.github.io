@@ -24,11 +24,16 @@ body{
   padding-bottom: 5px;
   margin-left: 100px;
   margin-bottom: 110px;
-  width: 420px;
+  width: 250px;
   border-bottom: 2px solid black;
 }
 .button-github {
+  margin-left: 33px;
   width: 80px;
+}
+.button-linkedin {
+  margin-left: 20px;
+  width: 77px;
 }
 .cabecalho{
   float: left;
