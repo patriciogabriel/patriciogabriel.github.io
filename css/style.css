@@ -132,7 +132,8 @@ h3{
   color: red;
   margin-left: 25%
 }
-.login-library, .table-library {
+.login-library, .table-library, .admin-library {
+  border: 1px solid black;
   width: 100%;
 }
 .icon-link {
