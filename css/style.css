@@ -15,7 +15,9 @@ body{
   margin: 0px;
 }
 .content {
-  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .side-img {
   display: block;
@@ -29,16 +31,16 @@ body{
   padding-bottom: 5px;
   margin-left: 100px;
   margin-bottom: 110px;
-  width: 250px;
+  width: 180px;
   border-bottom: 2px solid black;
 }
 .button-github {
-  margin-left: 33px;
-  width: 80px;
+  margin-left: 20px;
+  width: 60px;
 }
 .button-linkedin {
   margin-left: 20px;
-  width: 77px;
+  width: 57px;
 }
 .menu {
   float: right;
@@ -55,8 +57,9 @@ body{
   padding: 5px;
 }
 .link-menu:hover{
-  color: black;
-  background-color: #E8E8E8;
+  color: lightskyblue;
+  transition: 500ms;
+  border-bottom: 2px solid black;
   text-decoration: none;
   font-weight: normal;
 }
@@ -82,7 +85,7 @@ h1{
   font-size: 17px;
 }
 h2{
-  font-size: 70px;
+  font-size: 60px;
   margin-left: 100px;
 }
 h3{
