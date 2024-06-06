@@ -2,7 +2,9 @@
 <html lang="pt-br">
     <head>
         <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gabriel Patricio</title>
+        <script src="js/script.js"></script>
     </head>
     <body>
         <header>
@@ -17,16 +19,22 @@
                 </table>
             </div>
         </header>
-
-        <section class="preview">
-            <a class="preview-link" href="biblioteca.html"> Biblioteca <img class="icon-link" src="imagens/link.png" alt="icon-link"></a>
-            <img class="preview-img" src="imagens/loginbiblioteca.png" alt="login-biblioteca">
-            <p class="preview-teaser"> Projeto de uma biblioteca...</p>
-            <section class="preview-meta">
-                <span class="author-name"> Gabriel Patricio - </span>
-                <time class="preview-date" datetime="2024-05-30 00:00:00 +0000">30 de Maio de 2024</time>
-                <a class="preview-tag" href="biblioteca.html"> Biblioteca </a>
-            </section>
-        </section>
+ 
+        <ul class="projects-list">
+            <li>
+                <div class="project-title">
+                    <span class="preview-link"> Biblioteca <img class="icon-link" src="imagens/link.png" alt="icon-link"></span>
+                    <img class="preview-img" src="imagens/loginbiblioteca.png" alt="login-biblioteca">
+                    <p class="preview-teaser"> Projeto de uma biblioteca...</p>
+                    <section class="preview-meta">
+                        <span class="author-name"> Gabriel Patricio - </span>
+                        <time class="preview-date" datetime="2024-05-30 00:00:00 +0000">30 de Maio de 2024</time>
+                    </section>
+                </div>
+                <div class="project-content">
+                    <p class="preview-teaser"> Projeto de uma biblioteca, utilizando <span style="color: lightsalmon;">html</span>, <span style="color: blue;">css</span> e <span style="color: lightseagreen;">php</span>, com sistema de login e CRUD para criação de tabelas. <br><br> Tela de login: <img class="login-library" src="imagens/login.gif" alt="tela-login"> <br> Tabela: <img class="table-library" src="imagens/tabela.gif" alt="tela-tabela">  <br> Sistema de permissões: <img class="admin-library" src="imagens/admin.gif" alt="gif-user"></p>
+                </div>
+            </li>
+        </ul>
     </body>
 </html>

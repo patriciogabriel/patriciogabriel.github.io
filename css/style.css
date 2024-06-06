@@ -14,6 +14,21 @@ body{
   font-size: 19px;
   margin: 0px;
 }
+.projects-list {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 50px;
+  max-width: 600px;
+  margin: 50px auto;
+  list-style: none;
+}
+.project-content {
+  overflow: hidden;
+  height: 0;
+}
+.project-opened {
+  height: initial;
+}
 .content {
   display: flex;
   align-items: center;
@@ -38,6 +53,9 @@ body{
   margin-left: 20px;
   width: 60px;
 }
+.button-github:hover, .button-linkedin:hover{
+  filter: drop-shadow(1px 1px 10px yellow);
+}
 .button-linkedin {
   margin-left: 20px;
   width: 57px;
@@ -48,6 +66,7 @@ body{
   padding-right: 200px;
 }
 .link-menu{
+  transition: 500ms;
   border-bottom: 2px solid lightskyblue;
   color: black;
   background-color: white;
@@ -92,15 +111,8 @@ h3{
   font-weight: normal;
   margin-left: 100px;
 }
-.preview {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  padding: 50px;
-  width: 80%;
-  max-width: 750px;
-  margin: 50px auto;
-}
 .preview-link {
+  transition: 500ms;
   color: black;
   text-decoration: none;
   width: 26%;
@@ -108,11 +120,12 @@ h3{
   font-size: 30px;
 }
 .preview-link:hover {
-  color: black;
-  background-color: #E8E8E8;
+  cursor: pointer;
+  transition: 500ms;
+  color: lightskyblue;
   text-decoration: none;
   width: 26%;
-  border-bottom: 2px solid lightskyblue;
+  border-bottom: 2px solid black;
   font-size: 30px;
 }
 .preview-teaser {
@@ -130,15 +143,15 @@ h3{
 .author-name {
   font-weight: bold;
 }
-.preview-tag {
-  text-decoration: none;
-  color: red;
-  margin-left: 25%
-}
 .login-library, .table-library, .admin-library {
   border: 1px solid black;
   width: 100%;
 }
 .icon-link {
+  transition: 500ms;
   width: 22px;
+}
+.icon-rotated{
+  transition: 500ms;
+  transform: rotate(180deg);
 }
